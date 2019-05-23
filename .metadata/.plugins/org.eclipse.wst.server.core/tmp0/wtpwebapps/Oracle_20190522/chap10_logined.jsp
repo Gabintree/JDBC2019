@@ -30,6 +30,7 @@ border : 1px solid black;
 
 
  if(rs.next()){
+	 if(pw.equals(rs.getString(1))){
  %>	 
 	<table>
 		<tr>
@@ -47,7 +48,11 @@ border : 1px solid black;
 		<input type = "submit" value="탈퇴">
 	</form>
 <% 
- } 
+ 	} else {
+		out.println("<script>alert('비밀번호가 일치하지 않습니다.'); location.href('chap10_login.jsp');</script>");	 
+	}
+ }
+ 
 %>	
 
 </body>

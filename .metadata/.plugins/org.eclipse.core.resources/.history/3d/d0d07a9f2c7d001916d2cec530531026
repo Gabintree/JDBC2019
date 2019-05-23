@@ -49,7 +49,7 @@ border : 1px solid black;
 	</form>
 <% 
  	} else {
-		out.println("<script>alert('비밀번호가 일치하지 않습니다.'); location.href('chap10_login.jsp');</script>");	 
+		out.println("<script>alert('비밀번호가 일치하지 않습니다.'); location.href('chap10_login.jsp')</script>");	 
 	}
  }
  
