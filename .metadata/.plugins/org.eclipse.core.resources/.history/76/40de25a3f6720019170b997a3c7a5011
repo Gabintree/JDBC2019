@@ -1,0 +1,37 @@
+package java0510;
+
+import java.util.Scanner;
+
+public class Java20190510_test {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("번호를 입력하세요.1) inchi ->cm  2) cm->inchi  3) 미터제곱 -> inchi  4) kg -> pound ");
+		int num = sc.nextInt();
+		System.out.println("변환할 숫자를 입력하세요.");
+		int input = sc.nextInt();
+		
+		while (true) {
+			
+			switch (num) {
+			
+			case 1 : 
+				double output = input * 2.54;
+				System.out.println(output);
+				
+			
+			case 2
+			
+			case 3
+			
+			case 4
+			}
+		}
+	
+	
+	}
+
+	
+}

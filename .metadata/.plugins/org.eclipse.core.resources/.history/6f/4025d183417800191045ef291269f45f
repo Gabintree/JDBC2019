@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	String redirect = request.getParameter("redirect");
+
+	if(redirect.equals("redirect")) {
+		response.sendRedirect("http://localhost:8181/Jsp0516_PageMovingRedirect.jsp");
+	}else if(redirect.equals("forward")){
+		response.sendRedirect("http://localhost:8181/Jsp0516_PageMovingForward.jsp");
+	}else if(redirect.equals("include")){
+		response.sendRedirect("http://localhost:8181/Jsp0516_PageMovingInclude.jsp");
+	}
+
+%>    
+    
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head> 
+<body>
+페이지 이동 방식을 지정합니다.
+<br>
+PageMoving.jsp 페이지의 마지막 입니다.
+
+</body>
+</html>

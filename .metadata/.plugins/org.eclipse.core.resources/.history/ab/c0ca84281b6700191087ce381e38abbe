@@ -1,0 +1,46 @@
+package java20190425;
+
+import java.util.Scanner;
+
+interface IArea{
+	double GetArea();
+}
+
+public class Java20190425_0 {
+
+	public static void main(String[] args) {
+		Scanner sc = Scanner(System.in);
+		sc.NextInt()
+		
+	}
+
+}
+class Circle implements IArea {
+
+	@Override
+	public double GetArea() {
+		
+		return 0;
+	}
+	
+}
+
+class Square implements IArea{
+
+	@Override
+	public double GetArea() {
+
+		return 0;
+	}
+	
+}
+
+class Triangle implements IArea {
+
+	@Override
+	public double GetArea() {
+
+		return 0;
+	}
+	
+}

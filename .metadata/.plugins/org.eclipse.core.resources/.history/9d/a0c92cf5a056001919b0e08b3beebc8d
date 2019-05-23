@@ -1,0 +1,20 @@
+package java20190404;
+
+class ArrayIsInstance2 {
+
+	private String conts;
+	
+	ArrayIsInstance2(String cont) { 
+		this.conts =cont; 
+	}
+	public String toString() {
+		return conts;
+	}
+}
+
+public class ArrayIsInstance2 {
+	public static void main(String[] args) {
+		ArrayIsInstance2[] ar = new ArrayIsInstance2[5];
+		System.out.println("length : " + ar.length);
+	}
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;20190522_Oracle&apos; to &apos;Oracle_20190522&apos;" description="Rename resource &apos;20190522_Oracle&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/20190522_Oracle" name="Oracle_20190522" stamp="1558501726785" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;JDBC20190521_0&apos; to &apos;JDBC_20190521&apos;" description="Rename resource &apos;JDBC20190521_0&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JDBC20190521_0" name="JDBC_20190521" stamp="1558501739696" updateReferences="true"/>
+</session>

@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import ="java.sql.*" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JDBC PreparedStatment</title>
+</head>
+<body>
+
+<%
+	Connection conn = null;
+	PreparedStatement pstmt = null;
+	int rowNum;
+	
+	try{
+		Class.forName("com.mysql.jdbc.Driver");
+		
+		conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jspbook?serverTimezone=UTC", "jspbook", "1111");
+		
+		pstmt = conn.prepareStatement("insert into student (student_id, student_name, student_email, student_tel, department_id") " + " values (?, ?, ?, ?, ?)");
+	}
+
+%>
+
+</body>
+</html>

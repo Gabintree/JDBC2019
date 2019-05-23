@@ -1,0 +1,51 @@
+package java20190425;
+
+import java.util.Scanner;
+
+interface IArea{
+	double GetArea();
+}
+
+public class Java20190425_0 {
+
+	
+	public static void main(String[] args) {
+		Scanner sc = Scanner(System.in);
+		
+		System.out.println("[1. 삼각형 2. 사각형 3. 원] 숫자를 입력하세요");
+		int num = sc.nextInt();
+		
+		
+				
+	}
+
+}
+class Circle implements IArea {
+
+	@Override
+	public double GetArea() {
+		
+		return 0;
+	}
+	
+}
+
+class Square implements IArea{
+
+	@Override
+	public double GetArea() {
+
+		return 0;
+	}
+	
+}
+
+class Triangle implements IArea {
+
+	@Override
+	public double GetArea() {
+
+		return 0;
+	}
+	
+}
