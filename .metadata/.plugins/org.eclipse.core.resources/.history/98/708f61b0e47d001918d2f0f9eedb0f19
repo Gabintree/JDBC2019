@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>쿠키를 이용한 세션 관리</title>
+</head>
+<body>
+
+<%
+	String rememberId = request.getParameter("rememberId");
+	String id = request.getParameter("id");
+	Cookie cookieRememberId;
+	Cookie cookieId;
+	Cookie cookieLoginStatus;
+	
+
+
+%>
+</body>
+</html>

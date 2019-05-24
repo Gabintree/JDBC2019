@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	String cookieHeader = request.getHeader("Cookie");
+	String cookieName ="";
+	String cookieValue = "";
+	
+	Cookie cookie1 = new Cookie("param1", "test1");
+	response.addCookie(cookie1);
+	
+	Cookie cookie2 = new Cookie("param2", "test2");
+	cookie2.setDomain(".testcookie.com");
+	response.addCookie(cookie2);
+	
+	Cookie cookie3 = new Cookie("param3", "test3");
+	cookie3.setDomain("www2.testcookie.com");
+	response.addCookie(cookie3);
+
+	Cookie cookie4 = new Cookie("param4", "test4");
+	cookie4.setDomain("www.cookietest.net");
+	response.addCookie(cookie4);
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>
