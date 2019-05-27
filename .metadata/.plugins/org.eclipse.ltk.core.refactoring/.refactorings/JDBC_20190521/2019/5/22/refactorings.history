@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JDBC_20190521/WebContent/20190527_.jsp&apos; to &apos;20190527_Logout.jsp&apos;" description="Rename resource &apos;20190527_.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/20190527_.jsp" name="20190527_Logout.jsp" stamp="1558917972267" updateReferences="true"/>
+</session>
