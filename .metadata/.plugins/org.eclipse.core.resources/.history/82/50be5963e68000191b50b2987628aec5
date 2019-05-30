@@ -1,0 +1,14 @@
+package mytest;
+
+public class Member {
+
+	private String id;
+	oprivate String password;
+	
+	
+	public String getId {
+		return id;
+	}
+	
+	
+}

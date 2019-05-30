@@ -21,4 +21,6 @@
 <fullyQualifiedTypeName name="jsp0510_start.Point"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.JspContext"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.JspWriter"/>
 </qualifiedTypeNameHistroy>

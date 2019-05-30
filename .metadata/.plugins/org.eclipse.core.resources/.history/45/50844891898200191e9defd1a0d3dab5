@@ -1,0 +1,7 @@
+package mytest;
+
+import java.io.Serializable;
+
+public class Chap13Member {
+
+}

@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<%
+	request.setCharacterEncoding("utf-8");
+%>
+</head>
+<body>
+
+	이름 : ${param.name} 
+	<hr>
+	성별 : ${param.namyeo} 
+	<hr>
+	아이디 : ${param.id} 
+	<hr>
+	주소 : ${param.ad} 
+	<hr>
+	전화번호 : ${param.tel} 
+	<hr>
+	이메일주소 : ${param.mail} 
+	<hr>
+	취미 :  ${paramValue.alnguage [0]} 
+			${paramValue.alnguage [1]} 
+		    ${paramValue.alnguage [2]} 
+		    ${paramValue.alnguage [3]} 
+	        ${paramValue.alnguage [4]} 
+		    ${paramValue.alnguage [5]} 
+	        ${paramValue.alnguage [6]} 
+            ${paramValue.alnguage [7]} 
+            ${paramValue.alnguage [8]} 
+			${paramValue.alnguage [9]} 
+			${paramValue.alnguage [10]} 
+	        ${paramValue.alnguage [11]} 
+	
+
+
+
+
+
+</body>
+</html>

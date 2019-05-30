@@ -1,0 +1,7 @@
+<%@ tag body-content="empty" pageEncoding="utf-8" %>
+<%@ tag import = "java.text.SimpleDateFormat" %>
+<%@ tag import = "java.util.Date" %>
+
+<%
+
+%>

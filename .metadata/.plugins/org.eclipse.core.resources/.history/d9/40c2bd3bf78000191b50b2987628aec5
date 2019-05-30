@@ -1,0 +1,9 @@
+package mytest;
+
+public class EL_JAVA {
+	private int data;
+	
+	public void setData(int data) {
+		this.data = data;
+	}
+}

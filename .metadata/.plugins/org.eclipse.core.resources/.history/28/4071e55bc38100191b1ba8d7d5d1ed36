@@ -1,0 +1,4 @@
+<%@ tag body-content="empty" pageEncoding="utf-8" %>
+
+<%@ attribute name="str" required="true" %>
+<%@ attribute name="repeat""

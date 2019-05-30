@@ -1,0 +1,9 @@
+<%@ tag body-content="empty" pageEncoding="utf-8" %>
+
+<%@ attribute name="str" required="true" %>
+<%@ attribute name="repeat" required="true" type="java.lang.Integer" %>
+
+<h3>[<%=str %>] 문자열이 지정되었습니다.<br>
+<%=repeat%> 번 바복 출력합니다.<ㅗㄱ>
+	
+</h3>

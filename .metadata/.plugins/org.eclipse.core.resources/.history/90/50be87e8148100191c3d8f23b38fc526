@@ -1,0 +1,78 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+table, tr, td{
+border : 1px solid black;
+
+}
+
+td {
+align : "center";
+}
+</style>
+<%
+	request.setCharacterEncoding("utf-8");
+%>
+</head>
+<body>
+
+	이름 : ${param.name} 
+	<hr>
+	성별 : ${param.namyeo} 
+	<hr>
+	아이디 : ${param.id} 
+	<hr>
+	주소 : ${param.ad} 
+	<hr>
+	전화번호 : ${param.tel} 
+	<hr>
+	이메일주소 : ${param.mail} 
+	<hr>
+	취미 : 
+		<table>
+			<tr>
+				<td>${paramValues.hobby[0]} </td>
+			</tr>
+			<tr>
+				<td>${paramValues.hobby[1]} </td>
+			</tr>
+			<tr>
+				<td>${paramValues.hobby[2]} </td>
+			</tr>
+			<tr>
+				<td>${paramValues.hobby[3]} </td>
+			</tr>
+			<tr>
+				<td>${paramValues.hobby[4]} </td>
+			</tr>
+			<tr>
+				<td>${paramValues.hobby[5]} </td>
+			</tr>
+			<tr>
+				<td>${paramValues.hobby[6]} </td>
+			</tr>
+			<tr>
+				<td>${paramValues.hobby[7]} </td>
+			</tr>
+			<tr>
+				<td>${paramValues.hobby[8]} </td>
+			</tr>
+			<tr>
+				<td>${paramValues.hobby[9]} </td>
+			</tr>
+			<tr>
+				<td>${paramValues.hobby[10]} </td>
+			</tr>
+			<tr>
+				<td>${paramValues.hobby[11]} </td>
+			</tr>
+		</table>
+	
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<%
+	request.setCharacterEncoding("utf-8");
+%>
+</head>
+<body>
+
+	이름 : ${param.name} 
+	<hr>
+	성별 : ${param.namyeo} 
+	<hr>
+	아이디 : ${param.id} 
+	<hr>
+	주소 : ${param.ad} 
+	<hr>
+	전화번호 : ${param.tel} 
+	<hr>
+	이메일주소 : 
+	<hr>
+	취미 : 
+	
+	
+
+
+
+
+
+</body>
+</html>

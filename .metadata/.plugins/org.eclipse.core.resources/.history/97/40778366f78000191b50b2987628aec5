@@ -1,0 +1,21 @@
+package mytest;
+
+public class EL_JAVA {
+	private int data;
+	
+	public void setData(int data) {
+		this.data = data;
+	}
+	public int getData() {
+		return data;
+	}
+	
+	public int getAddData(int a, int b) {
+		this.data = (a+b);
+		return this.data;
+	}
+	
+	public int[] getArrayData (int a, int b) {
+		int[] result = new int[2];
+	}
+}

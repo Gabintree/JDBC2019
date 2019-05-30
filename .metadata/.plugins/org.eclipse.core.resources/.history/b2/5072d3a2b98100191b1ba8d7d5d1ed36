@@ -1,0 +1,3 @@
+<%@ tag body-content="empty" pageEncoding="utf-8" %>
+
+<h3>include 지시자 사용</h3>
