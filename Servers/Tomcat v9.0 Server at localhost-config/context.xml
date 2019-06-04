@@ -36,5 +36,17 @@
 	type="javax.sql.DataSource"
 	maxActive="20"
 	maxWait="10000" 
-	/>   
+	/>  
+	
+	<resource
+    auth="Container"
+    driverClassName="oracle.jdbc.driver.OracleDriver"
+    url="jdbc:oracle:thin:@localhost:1521:xe"
+    username="system"
+    password="1111"
+	name="jdbc/Board"
+	type="javax.sql.DataSource"
+	maxActive="20"
+	maxWait="10000" 
+	/>  
 </Context>
